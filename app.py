@@ -1,16 +1,13 @@
 from flask import Flask , render_template
-
+import json
 app = Flask(__name__)
 
-@app.route('/')
-def home():
-    name  = 10
-    if name >=10 :
-        name = "Yes"
-    else :
-        name = "No"
-    return render_template('index.html', name=name)
-
+file  = open('Data.json' , 'r')
+user_data = json.load(file)
+file.close()
+@app.route('/api')
+def API():
+    return user_data
 
 if __name__ == '__main__':
     app.run(debug=True)

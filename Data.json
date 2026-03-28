@@ -1,0 +1,7 @@
+[{
+  "name": "Alice",
+  "age": 25,
+  "email": "alice@example.com",
+  "isSubscriber": true,
+  "hobbies": ["reading", "cycling", "painting"]
+}]
