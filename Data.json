@@ -1,5 +1,6 @@
 [{
   "name": "Alice",
+  "role" : "student2",
   "age": 25,
   "email": "alice@example.com",
   "isSubscriber": true,
