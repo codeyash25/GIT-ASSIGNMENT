@@ -1,0 +1,5 @@
+render
+request
+Flask
+pymongo
+python-dotenv
